@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faf8f5; /* beige claro */
+    color: #333;
+}
+
+header {
+    background-color: #4E342E; /* café oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #D4A373; /* dorado suave */
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #F5F0E6; /* beige suave */
+    border-bottom: 2px solid #D4A373;
+}
+
+.platos {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.platos h2 {
+    color: #D4A373;
+}
+
+.platos img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.puntos {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.puntos li {
+    padding: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4E342E;
+    color: white;
+    margin-top: 30px;
+}
